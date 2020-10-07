@@ -12,6 +12,10 @@
 		92B902DE217EFC8E005A722E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B902DC217EFC8E005A722E /* Main.storyboard */; };
 		92B902E0217EFCB0005A722E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B902DF217EFCB0005A722E /* Assets.xcassets */; };
 		92B902E3217EFCB0005A722E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B902E1217EFCB0005A722E /* LaunchScreen.storyboard */; };
+		92B902EB217EFF64005A722E /* Flowers.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 92B902EA217EFF64005A722E /* Flowers.mlmodel */; };
+		92B902ED217EFFF5005A722E /* ML2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B902EC217EFFF5005A722E /* ML2ViewController.swift */; };
+		92B902EF217F02D2005A722E /* RiceSoupClassifiter.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 92B902EE217F02D1005A722E /* RiceSoupClassifiter.mlmodel */; };
+		92B902F1217F043A005A722E /* UIImage+Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B902F0217F043A005A722E /* UIImage+Buffer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		92B902DF217EFCB0005A722E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92B902E2217EFCB0005A722E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92B902E4217EFCB0005A722E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B902EA217EFF64005A722E /* Flowers.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Flowers.mlmodel; sourceTree = "<group>"; };
+		92B902EC217EFFF5005A722E /* ML2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML2ViewController.swift; sourceTree = "<group>"; };
+		92B902EE217F02D1005A722E /* RiceSoupClassifiter.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = RiceSoupClassifiter.mlmodel; sourceTree = "<group>"; };
+		92B902F0217F043A005A722E /* UIImage+Buffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Buffer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,8 @@
 		92B902CC217EFC8E005A722E = {
 			isa = PBXGroup;
 			children = (
+				92B902EA217EFF64005A722E /* Flowers.mlmodel */,
+				92B902EE217F02D1005A722E /* RiceSoupClassifiter.mlmodel */,
 				92B902D7217EFC8E005A722E /* MechineLearning */,
 				92B902D6217EFC8E005A722E /* Products */,
 			);
@@ -60,6 +70,8 @@
 				92B902DF217EFCB0005A722E /* Assets.xcassets */,
 				92B902E1217EFCB0005A722E /* LaunchScreen.storyboard */,
 				92B902E4217EFCB0005A722E /* Info.plist */,
+				92B902EC217EFFF5005A722E /* ML2ViewController.swift */,
+				92B902F0217F043A005A722E /* UIImage+Buffer.swift */,
 			);
 			path = MechineLearning;
 			sourceTree = "<group>";
@@ -135,7 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92B902ED217EFFF5005A722E /* ML2ViewController.swift in Sources */,
+				92B902F1217F043A005A722E /* UIImage+Buffer.swift in Sources */,
 				92B902DB217EFC8E005A722E /* ViewController.swift in Sources */,
+				92B902EB217EFF64005A722E /* Flowers.mlmodel in Sources */,
+				92B902EF217F02D2005A722E /* RiceSoupClassifiter.mlmodel in Sources */,
 				92B902D9217EFC8E005A722E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
